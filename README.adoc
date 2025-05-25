@@ -309,7 +309,7 @@ curl "https://localhost:2443/api/setup/" \
 
 Used for generating new device screens by supplying HTML content for rendering, screenshotting, and grey scaling to render properly on your device. Both `.png` or `.bmp` extensions are supported for the `file_name` key. If you don't supply a `file_name`, the server will generate one for you using a UUID for the file name. You can find all generated images in `public/assets/screens`.
 
-When making requests, the `Access-Token` is your device's MAC address. You can obtain this information from the UI.
+When making requests, the `Access-Token` is your device's API key. You can obtain this information from the UI.
 
 .Request (HTML Content)
 [%collapsible]
